@@ -67,7 +67,7 @@ function App() {
   // console.log(value);
   
   const iconUrlFromCode = (cod) =>
-  `http://openweathermap.org/img/wn/${cod}@2x.png`;
+  `https://openweathermap.org/img/wn/${cod}@2x.png`;
 
   return (
     <div className="App">

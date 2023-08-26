@@ -22,7 +22,7 @@ function App() {
       
 
       // }
-      const url = `http://api.openweathermap.org/data/2.5/weather?q=${data}&units=metric&appid=98364b843ead1950aa42f2208c579e7b&units=metrics`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${data}&units=metric&appid=98364b843ead1950aa42f2208c579e7b&units=metrics`;
       const response = await fetch(url);
       const resJson = await response.json();
       setValue(resJson);
